@@ -29,7 +29,7 @@ local XPCall: (any, ...any) -> (boolean, ...any) = xpcall;
 
 local TableForEach: (any, any) -> () = function(Table: {[any]: any}, Callback: any)
 	for Index, Value in Table do
-		local Success, Error = pcall(Callback, Index, Value)
+		local Success, Error = PCall(Callback, Index, Value)
 		if not Success then
 			warn(Error)
 		end
