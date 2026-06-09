@@ -4,3 +4,5 @@
 # remade it so -->> (not my design)
 
 <img width="1142" height="621" alt="image" src="https://github.com/user-attachments/assets/f4e7ee9e-59ba-444d-a183-cbf19aef249b" />
+
+# i am aware of every padding issues
